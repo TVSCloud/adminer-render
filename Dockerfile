@@ -1,8 +1,8 @@
-FROM adminer:4.7.2
+FROM adminer:4.8.2
 
 # change this to your preferred design.
 # Full list at https://github.com/vrana/adminer/tree/master/designs
-ENV ADMINER_DESIGN nette
+ENV ADMINER_DESIGN hydra
 
 # Plugins enabled by default.
 # Full list here: https://www.adminer.org/en/plugins/
